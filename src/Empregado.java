@@ -2,9 +2,12 @@ public abstract class Empregado {
     long matricula;
     String nome;
 
-    public double calcularSalario() {
-        return 0.0;
+    public Empregado(long matricula, String nome) {
+        this.matricula = matricula;
+        this.nome = nome;
     }
+
+    public abstract double calcularSalario();
 
     public String getDados() {
         return "Nome: " + nome +
