@@ -9,7 +9,7 @@ public abstract class Empregado {
 
     public abstract double calcularSalario();
 
-    public String getDados() {
+    public String toString() {
         return "Nome: " + nome +
                 "\nMatricula: " + matricula;
     }

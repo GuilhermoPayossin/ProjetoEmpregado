@@ -10,8 +10,8 @@ public class EmpregadoComissionado extends Empregado {
     }
 
     @Override
-    public String getDados() {
-        return super.getDados() +
+    public String toString() {
+        return super.toString() +
                 "\nTotal de Vendas: " + totalDeVendas +
                 "\nValor Comissão: R$" + comissao;
     }

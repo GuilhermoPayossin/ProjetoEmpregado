@@ -9,8 +9,8 @@ public class EmpregadoHorista extends Empregado {
     }
 
     @Override
-    public String getDados() {
-        return super.getDados() +
+    public String toString() {
+        return super.toString() +
                 "\nHoras Trabalhadas: " + totalDeHorasTrabalhadas +
                 "\nValor por Hora: R$" + valorPorHora;
     }

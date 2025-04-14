@@ -7,7 +7,7 @@ public class Main {
         empregados[2] = new EmpregadoHorista(3, "Vitória", 6, 7);
 
         for (Empregado e : empregados) {
-            System.out.println(e.getDados());
+            System.out.println(e);
             System.out.println("Salário: R$" + e.calcularSalario());
             System.out.println();
         }
