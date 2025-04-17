@@ -21,6 +21,7 @@ public class Controle {
         for (int i = 0; i < index; i++) {
             aux += empregados[i] +"\n";
             aux += "Salário: R$" + empregados[i].calcularSalario() + "\n";
+            aux += "--------------";
         }
         return aux;
     }
